@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57317" started-at="2020-02-17T15:45:05Z" finished-at="2020-02-17T15:46:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57317" started-at="2020-02-17T15:45:05Z" finished-at="2020-02-17T15:46:02Z">
+      <class name="com.furniture.testSet.Test_1">
+        <test-method status="PASS" signature="testStartUp()[pri:0, instance:com.furniture.testSet.Test_1@47ef968d]" name="testStartUp" is-config="true" duration-ms="51486" started-at="2020-02-17T15:45:05Z" finished-at="2020-02-17T15:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartUp -->
+        <test-method status="PASS" signature="testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_1@47ef968d]" name="testCase1_Selection" duration-ms="2446" started-at="2020-02-17T15:45:56Z" finished-at="2020-02-17T15:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1_Selection -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.furniture.testSet.Test_1@47ef968d]" name="tearDown" is-config="true" duration-ms="18" started-at="2020-02-17T15:45:59Z" finished-at="2020-02-17T15:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1_Selection status=SUCCESS method=Test_1.testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_1@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.furniture.testSet.Test_1@47ef968d]" name="testCleanUp" is-config="true" duration-ms="3345" started-at="2020-02-17T15:45:59Z" finished-at="2020-02-17T15:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+      </class> <!-- com.furniture.testSet.Test_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
