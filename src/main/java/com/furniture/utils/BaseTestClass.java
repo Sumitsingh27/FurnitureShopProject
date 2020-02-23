@@ -1,4 +1,4 @@
-package com.furniture.testSet;
+package com.furniture.utils;
 
 import java.io.IOException;
 
@@ -26,7 +26,7 @@ public class BaseTestClass {
 	public static ExtentTest test;
 
 	static BrowserSelection bs;
-	static WebDriver driver;
+	 protected static WebDriver driver;
 
 	@BeforeTest
 	public static void testStartUp() throws InterruptedException {

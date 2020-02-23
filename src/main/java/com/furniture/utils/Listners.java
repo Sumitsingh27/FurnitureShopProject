@@ -26,12 +26,12 @@ public class Listners implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		try{
+		try {
 			Screenshot.getScreenshot(driver, result.getName());
-		} catch(IOException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
-		}	
-		
+		}
+
 	}
 
 	public void onTestSkipped(ITestResult arg0) {

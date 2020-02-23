@@ -6426,3 +6426,1254 @@
 21:16:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 21:16:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 21:16:02 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/m1041815/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+14:09:20 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+14:09:22 INFO  BrowserSelection:79 - Browser get Maximized
+14:09:30 INFO  BrowserSelection:84 - URL get Loaded
+14:09:30 INFO  Test_1:26 - testCase1_Selection Start's
+14:09:31 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+14:09:31 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+14:09:31 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+14:09:31 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+14:09:31 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+14:09:31 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+14:09:31 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+14:09:31 DEBUG DefaultClientConnection:274 - Sending request: POST /rest/api/signup/ HTTP/1.1
+14:09:31 DEBUG wire:73 -  >> "POST /rest/api/signup/ HTTP/1.1[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Content-Length: 208[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:09:31 DEBUG wire:73 -  >> "[\r][\n]"
+14:09:31 DEBUG headers:278 - >> POST /rest/api/signup/ HTTP/1.1
+14:09:31 DEBUG headers:281 - >> Accept: */*
+14:09:31 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+14:09:31 DEBUG headers:281 - >> Content-Length: 208
+14:09:31 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+14:09:31 DEBUG headers:281 - >> Connection: Keep-Alive
+14:09:31 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+14:09:31 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+14:09:31 DEBUG wire:87 -  >> "{"emailId":"test@why123.com","gender":"MALE","mobileNo":"4352678923","name":"Newuser","password":"Test@1234","role":{"description":"Registration of User","name":"NewUser","roleId":2222},"userStatus":"ACTIVE"}"
+14:09:32 DEBUG wire:73 -  << "HTTP/1.1 202 [\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "status: 202 ACCEPTED[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 14:09:32 GMT[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "[\r][\n]"
+14:09:32 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 202 
+14:09:32 DEBUG headers:262 - << HTTP/1.1 202 
+14:09:32 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+14:09:32 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+14:09:32 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+14:09:32 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+14:09:32 DEBUG headers:265 - << status: 202 ACCEPTED
+14:09:32 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+14:09:32 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+14:09:32 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+14:09:32 DEBUG headers:265 - << Pragma: no-cache
+14:09:32 DEBUG headers:265 - << Expires: 0
+14:09:32 DEBUG headers:265 - << X-Frame-Options: DENY
+14:09:32 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+14:09:32 DEBUG headers:265 - << Transfer-Encoding: chunked
+14:09:32 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 14:09:32 GMT
+14:09:32 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+14:09:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+14:09:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:09:32 DEBUG wire:73 -  << "af[\r][\n]"
+14:09:32 DEBUG wire:87 -  << "{"message":" Successfully added profile - Newuser","httpStatus":"201 CREATED","httpStatusCode":200,"body":" Successfully added profile - Newuser","success":true,"error":false}"
+14:09:32 DEBUG wire:73 -  << "[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "0[\r][\n]"
+14:09:32 DEBUG wire:73 -  << "[\r][\n]"
+14:09:32 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2a22ad2b
+14:09:32 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+14:09:32 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (80bddf9a7bdff4f7bd7f9c176bfcf8bd)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+14:09:32 DEBUG HomePage:21 - Click SignIn Button Successful
+14:09:35 INFO  BrowserSelection:100 - Browser get Close
+14:09:35 INFO  BrowserSelection:107 - Browser get Quit
+14:09:35 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+14:09:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+14:09:35 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+14:09:36 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+14:09:36 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+14:09:36 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+16:49:41 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+16:49:42 INFO  BrowserSelection:79 - Browser get Maximized
+16:49:49 INFO  BrowserSelection:84 - URL get Loaded
+16:49:49 INFO  Test_1:28 - testCase1_Selection Start's
+16:49:50 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+16:49:50 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+16:49:50 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+16:49:50 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+16:49:50 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+16:49:50 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+16:49:50 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+16:49:50 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+16:49:50 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:49:50 DEBUG wire:73 -  >> "[\r][\n]"
+16:49:50 DEBUG headers:278 - >> GET / HTTP/1.1
+16:49:50 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+16:49:50 DEBUG headers:281 - >> Accept: */*
+16:49:50 DEBUG headers:281 - >> Content-Length: 0
+16:49:50 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+16:49:50 DEBUG headers:281 - >> Connection: Keep-Alive
+16:49:50 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+16:49:50 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+16:49:50 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 16:49:50 GMT[\r][\n]"
+16:49:50 DEBUG wire:73 -  << "[\r][\n]"
+16:49:50 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+16:49:50 DEBUG headers:262 - << HTTP/1.1 200 
+16:49:50 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+16:49:50 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+16:49:50 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+16:49:50 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+16:49:50 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+16:49:50 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+16:49:50 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+16:49:50 DEBUG headers:265 - << Pragma: no-cache
+16:49:50 DEBUG headers:265 - << Expires: 0
+16:49:50 DEBUG headers:265 - << X-Frame-Options: DENY
+16:49:50 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+16:49:50 DEBUG headers:265 - << Content-Length: 69
+16:49:50 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 16:49:50 GMT
+16:49:50 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+16:49:50 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+16:49:50 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:49:50 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+16:49:50 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30cdae70
+16:49:50 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+16:49:51 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (b4919ceccba64459ab43d4b9ecc2af8b)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+16:49:51 DEBUG HomePage:21 - Click SignIn Button Successful
+16:49:53 INFO  BrowserSelection:100 - Browser get Close
+16:49:54 INFO  BrowserSelection:107 - Browser get Quit
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+16:49:54 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+16:49:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+16:49:54 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+16:54:20 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+16:54:21 INFO  BrowserSelection:79 - Browser get Maximized
+16:54:27 INFO  BrowserSelection:84 - URL get Loaded
+16:54:27 INFO  Test_1:28 - testCase1_Selection Start's
+16:54:28 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+16:54:28 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+16:54:28 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+16:54:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+16:54:28 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+16:54:28 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+16:54:28 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+16:54:28 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+16:54:28 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:54:28 DEBUG wire:73 -  >> "[\r][\n]"
+16:54:28 DEBUG headers:278 - >> GET / HTTP/1.1
+16:54:28 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+16:54:28 DEBUG headers:281 - >> Accept: */*
+16:54:28 DEBUG headers:281 - >> Content-Length: 0
+16:54:28 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+16:54:28 DEBUG headers:281 - >> Connection: Keep-Alive
+16:54:28 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+16:54:28 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+16:54:28 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 16:54:28 GMT[\r][\n]"
+16:54:28 DEBUG wire:73 -  << "[\r][\n]"
+16:54:28 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+16:54:28 DEBUG headers:262 - << HTTP/1.1 200 
+16:54:28 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+16:54:28 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+16:54:28 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+16:54:28 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+16:54:28 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+16:54:28 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+16:54:28 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+16:54:28 DEBUG headers:265 - << Pragma: no-cache
+16:54:28 DEBUG headers:265 - << Expires: 0
+16:54:28 DEBUG headers:265 - << X-Frame-Options: DENY
+16:54:28 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+16:54:28 DEBUG headers:265 - << Content-Length: 69
+16:54:28 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 16:54:28 GMT
+16:54:28 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+16:54:28 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+16:54:28 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:54:28 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+16:54:28 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30cdae70
+16:54:28 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+16:54:28 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (b5f552042d39d146a7e365b08aa9aebe)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+16:54:28 DEBUG HomePage:21 - Click SignIn Button Successful
+16:54:31 INFO  BrowserSelection:100 - Browser get Close
+16:54:32 INFO  BrowserSelection:107 - Browser get Quit
+16:54:32 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+16:54:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+16:54:32 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+16:54:33 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+16:54:33 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+16:54:33 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+17:09:51 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+17:09:53 INFO  BrowserSelection:79 - Browser get Maximized
+17:09:58 INFO  BrowserSelection:84 - URL get Loaded
+17:09:59 INFO  Test_1:28 - testCase1_Selection Start's
+17:10:00 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+17:10:00 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+17:10:00 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+17:10:00 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+17:10:00 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+17:10:00 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+17:10:00 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+17:10:00 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+17:10:00 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:10:00 DEBUG wire:73 -  >> "[\r][\n]"
+17:10:00 DEBUG headers:278 - >> GET / HTTP/1.1
+17:10:00 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+17:10:00 DEBUG headers:281 - >> Accept: */*
+17:10:00 DEBUG headers:281 - >> Content-Length: 0
+17:10:00 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+17:10:00 DEBUG headers:281 - >> Connection: Keep-Alive
+17:10:00 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+17:10:00 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+17:10:00 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 17:10:00 GMT[\r][\n]"
+17:10:00 DEBUG wire:73 -  << "[\r][\n]"
+17:10:00 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+17:10:00 DEBUG headers:262 - << HTTP/1.1 200 
+17:10:00 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+17:10:00 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+17:10:00 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+17:10:00 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+17:10:00 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+17:10:00 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+17:10:00 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+17:10:00 DEBUG headers:265 - << Pragma: no-cache
+17:10:00 DEBUG headers:265 - << Expires: 0
+17:10:00 DEBUG headers:265 - << X-Frame-Options: DENY
+17:10:00 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+17:10:00 DEBUG headers:265 - << Content-Length: 69
+17:10:00 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 17:10:00 GMT
+17:10:00 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+17:10:00 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+17:10:00 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+17:10:00 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+17:10:00 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@67064bdc
+17:10:00 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+17:10:01 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (cf0bd0367b65da91ba07bf058c9ba656)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+17:10:01 DEBUG HomePage:21 - Click SignIn Button Successful
+17:10:42 INFO  BrowserSelection:100 - Browser get Close
+17:10:42 INFO  BrowserSelection:107 - Browser get Quit
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+17:10:42 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+17:10:42 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+17:10:42 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+17:24:42 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+17:24:43 INFO  BrowserSelection:79 - Browser get Maximized
+17:24:49 INFO  BrowserSelection:84 - URL get Loaded
+17:24:49 INFO  Test_1:28 - testCase1_Selection Start's
+17:24:50 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+17:24:50 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+17:24:50 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+17:24:50 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+17:24:50 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+17:24:50 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+17:24:50 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+17:24:50 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+17:24:50 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:24:50 DEBUG wire:73 -  >> "[\r][\n]"
+17:24:50 DEBUG headers:278 - >> GET / HTTP/1.1
+17:24:50 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+17:24:50 DEBUG headers:281 - >> Accept: */*
+17:24:50 DEBUG headers:281 - >> Content-Length: 0
+17:24:50 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+17:24:50 DEBUG headers:281 - >> Connection: Keep-Alive
+17:24:50 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+17:24:50 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+17:24:50 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 17:24:50 GMT[\r][\n]"
+17:24:50 DEBUG wire:73 -  << "[\r][\n]"
+17:24:50 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+17:24:50 DEBUG headers:262 - << HTTP/1.1 200 
+17:24:50 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+17:24:50 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+17:24:50 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+17:24:50 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+17:24:50 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+17:24:50 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+17:24:50 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+17:24:50 DEBUG headers:265 - << Pragma: no-cache
+17:24:50 DEBUG headers:265 - << Expires: 0
+17:24:50 DEBUG headers:265 - << X-Frame-Options: DENY
+17:24:50 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+17:24:50 DEBUG headers:265 - << Content-Length: 69
+17:24:50 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 17:24:50 GMT
+17:24:50 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+17:24:50 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+17:24:50 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+17:24:50 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+17:24:50 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f233b26
+17:24:50 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+17:24:51 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (ac050c0eb2ee5e4a46a7d634a042df4e)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+17:24:51 DEBUG HomePage:21 - Click SignIn Button Successful
+17:24:53 INFO  BrowserSelection:100 - Browser get Close
+17:24:55 INFO  BrowserSelection:107 - Browser get Quit
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+17:24:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+17:24:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+17:24:55 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:09:44 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:09:45 INFO  BrowserSelection:79 - Browser get Maximized
+19:09:52 INFO  BrowserSelection:84 - URL get Loaded
+19:09:52 INFO  Test_1:28 - testCase1_Selection Start's
+19:09:53 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:09:53 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:09:53 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:09:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:09:53 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:09:53 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:09:53 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:09:53 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:09:53 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:09:53 DEBUG wire:73 -  >> "[\r][\n]"
+19:09:53 DEBUG headers:278 - >> GET / HTTP/1.1
+19:09:53 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:09:53 DEBUG headers:281 - >> Accept: */*
+19:09:53 DEBUG headers:281 - >> Content-Length: 0
+19:09:53 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:09:53 DEBUG headers:281 - >> Connection: Keep-Alive
+19:09:53 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:09:53 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:09:53 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:09:53 GMT[\r][\n]"
+19:09:53 DEBUG wire:73 -  << "[\r][\n]"
+19:09:53 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:09:53 DEBUG headers:262 - << HTTP/1.1 200 
+19:09:53 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:09:53 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:09:53 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:09:53 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:09:53 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:09:53 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:09:53 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:09:53 DEBUG headers:265 - << Pragma: no-cache
+19:09:53 DEBUG headers:265 - << Expires: 0
+19:09:53 DEBUG headers:265 - << X-Frame-Options: DENY
+19:09:53 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:09:53 DEBUG headers:265 - << Content-Length: 69
+19:09:53 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:09:53 GMT
+19:09:53 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:09:53 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:09:53 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:09:53 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:09:53 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f233b26
+19:09:53 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:09:54 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (a7375c01df77f5b0ffe13196d3d72c87)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:09:54 DEBUG HomePage:21 - Click SignIn Button Successful
+19:09:59 INFO  BrowserSelection:100 - Browser get Close
+19:09:59 INFO  BrowserSelection:107 - Browser get Quit
+19:09:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:09:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:09:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:09:59 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:10:00 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:10:00 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:10:00 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:11:05 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:11:06 INFO  BrowserSelection:79 - Browser get Maximized
+19:11:12 INFO  BrowserSelection:84 - URL get Loaded
+19:11:12 INFO  Test_1:28 - testCase1_Selection Start's
+19:11:13 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:11:13 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:11:13 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:11:13 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:11:13 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:11:13 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:11:13 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:11:13 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:11:13 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:11:13 DEBUG wire:73 -  >> "[\r][\n]"
+19:11:13 DEBUG headers:278 - >> GET / HTTP/1.1
+19:11:13 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:11:13 DEBUG headers:281 - >> Accept: */*
+19:11:13 DEBUG headers:281 - >> Content-Length: 0
+19:11:13 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:11:13 DEBUG headers:281 - >> Connection: Keep-Alive
+19:11:13 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:11:13 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:11:13 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:11:13 GMT[\r][\n]"
+19:11:13 DEBUG wire:73 -  << "[\r][\n]"
+19:11:13 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:11:13 DEBUG headers:262 - << HTTP/1.1 200 
+19:11:13 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:11:13 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:11:13 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:11:13 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:11:13 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:11:13 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:11:13 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:11:13 DEBUG headers:265 - << Pragma: no-cache
+19:11:13 DEBUG headers:265 - << Expires: 0
+19:11:13 DEBUG headers:265 - << X-Frame-Options: DENY
+19:11:13 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:11:13 DEBUG headers:265 - << Content-Length: 69
+19:11:13 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:11:13 GMT
+19:11:13 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:11:13 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:11:13 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:11:13 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:11:13 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f233b26
+19:11:13 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:11:13 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (4220dd9b1892497f2ddba7a699dd910a)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:11:13 DEBUG HomePage:21 - Click SignIn Button Successful
+19:11:16 INFO  BrowserSelection:100 - Browser get Close
+19:11:17 INFO  BrowserSelection:107 - Browser get Quit
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:11:17 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:11:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:11:17 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:13:11 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:13:13 INFO  BrowserSelection:79 - Browser get Maximized
+19:13:19 INFO  BrowserSelection:84 - URL get Loaded
+19:13:19 INFO  Test_1:28 - testCase1_Selection Start's
+19:13:20 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:13:20 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:13:20 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:13:20 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:13:20 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:13:20 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:13:20 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:13:20 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:13:20 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:13:20 DEBUG wire:73 -  >> "[\r][\n]"
+19:13:20 DEBUG headers:278 - >> GET / HTTP/1.1
+19:13:20 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:13:20 DEBUG headers:281 - >> Accept: */*
+19:13:20 DEBUG headers:281 - >> Content-Length: 0
+19:13:20 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:13:20 DEBUG headers:281 - >> Connection: Keep-Alive
+19:13:20 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:13:20 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:13:20 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:13:20 GMT[\r][\n]"
+19:13:20 DEBUG wire:73 -  << "[\r][\n]"
+19:13:20 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:13:20 DEBUG headers:262 - << HTTP/1.1 200 
+19:13:20 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:13:20 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:13:20 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:13:20 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:13:20 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:13:20 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:13:20 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:13:20 DEBUG headers:265 - << Pragma: no-cache
+19:13:20 DEBUG headers:265 - << Expires: 0
+19:13:20 DEBUG headers:265 - << X-Frame-Options: DENY
+19:13:20 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:13:20 DEBUG headers:265 - << Content-Length: 69
+19:13:20 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:13:20 GMT
+19:13:20 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:13:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:13:20 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:13:20 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:13:20 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f233b26
+19:13:20 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:13:20 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (95ce62528d056b04db0a8932fe8f5d32)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:13:20 DEBUG HomePage:21 - Click SignIn Button Successful
+19:13:23 INFO  BrowserSelection:100 - Browser get Close
+19:13:25 INFO  BrowserSelection:107 - Browser get Quit
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:13:25 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:13:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:13:25 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:14:29 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:14:30 INFO  BrowserSelection:79 - Browser get Maximized
+19:14:36 INFO  BrowserSelection:84 - URL get Loaded
+19:14:36 INFO  Test_1:28 - testCase1_Selection Start's
+19:14:37 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:14:37 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:14:37 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:14:37 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:14:37 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:14:37 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:14:37 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:14:37 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:14:37 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:14:37 DEBUG wire:73 -  >> "[\r][\n]"
+19:14:37 DEBUG headers:278 - >> GET / HTTP/1.1
+19:14:37 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:14:37 DEBUG headers:281 - >> Accept: */*
+19:14:37 DEBUG headers:281 - >> Content-Length: 0
+19:14:37 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:14:37 DEBUG headers:281 - >> Connection: Keep-Alive
+19:14:37 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:14:37 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:14:37 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:14:37 GMT[\r][\n]"
+19:14:37 DEBUG wire:73 -  << "[\r][\n]"
+19:14:37 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:14:37 DEBUG headers:262 - << HTTP/1.1 200 
+19:14:37 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:14:37 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:14:37 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:14:37 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:14:37 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:14:37 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:14:37 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:14:37 DEBUG headers:265 - << Pragma: no-cache
+19:14:37 DEBUG headers:265 - << Expires: 0
+19:14:37 DEBUG headers:265 - << X-Frame-Options: DENY
+19:14:37 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:14:37 DEBUG headers:265 - << Content-Length: 69
+19:14:37 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:14:37 GMT
+19:14:37 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:14:37 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:14:37 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:14:37 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:14:37 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1654a892
+19:14:37 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:14:38 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (3b57f988a732b83f9b2104483d388730)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:14:38 DEBUG HomePage:21 - Click SignIn Button Successful
+19:14:40 INFO  BrowserSelection:100 - Browser get Close
+19:14:41 INFO  BrowserSelection:107 - Browser get Quit
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:14:41 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:14:41 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:14:41 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:15:54 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:15:56 INFO  BrowserSelection:79 - Browser get Maximized
+19:16:01 INFO  BrowserSelection:84 - URL get Loaded
+19:16:02 INFO  Test_1:25 - testCase1_Selection Start's
+19:16:02 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:16:02 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:16:02 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:16:02 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:16:02 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:16:02 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:16:02 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:16:02 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:16:02 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:16:02 DEBUG wire:73 -  >> "[\r][\n]"
+19:16:02 DEBUG headers:278 - >> GET / HTTP/1.1
+19:16:02 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:16:02 DEBUG headers:281 - >> Accept: */*
+19:16:02 DEBUG headers:281 - >> Content-Length: 0
+19:16:02 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:16:02 DEBUG headers:281 - >> Connection: Keep-Alive
+19:16:02 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:16:02 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:16:03 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:16:02 GMT[\r][\n]"
+19:16:03 DEBUG wire:73 -  << "[\r][\n]"
+19:16:03 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:16:03 DEBUG headers:262 - << HTTP/1.1 200 
+19:16:03 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:16:03 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:16:03 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:16:03 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:16:03 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:16:03 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:16:03 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:16:03 DEBUG headers:265 - << Pragma: no-cache
+19:16:03 DEBUG headers:265 - << Expires: 0
+19:16:03 DEBUG headers:265 - << X-Frame-Options: DENY
+19:16:03 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:16:03 DEBUG headers:265 - << Content-Length: 69
+19:16:03 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:16:02 GMT
+19:16:03 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:16:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:16:03 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:16:03 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:16:03 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1654a892
+19:16:03 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:16:03 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (4e9dd2229a09df37349ddb1e2eac5bef)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:16:03 DEBUG HomePage:21 - Click SignIn Button Successful
+19:16:06 INFO  BrowserSelection:100 - Browser get Close
+19:16:06 INFO  BrowserSelection:107 - Browser get Quit
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:16:06 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:16:06 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:16:06 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+19:18:09 INFO  BrowserSelection:60 - Chrome Browser get Invoked
+19:18:10 INFO  BrowserSelection:79 - Browser get Maximized
+19:18:16 INFO  BrowserSelection:84 - URL get Loaded
+19:18:16 INFO  Test_1:26 - testCase1_Selection Start's
+19:18:17 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://okmry52647dns.eastus.cloudapp.azure.com:8089
+19:18:17 DEBUG DefaultClientConnectionOperator:177 - Connecting to okmry52647dns.eastus.cloudapp.azure.com:8089
+19:18:17 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+19:18:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+19:18:17 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+19:18:17 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+19:18:17 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+19:18:17 DEBUG DefaultClientConnection:274 - Sending request: GET / HTTP/1.1
+19:18:17 DEBUG wire:73 -  >> "GET / HTTP/1.1[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Content-Length: 0[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Host: okmry52647dns.eastus.cloudapp.azure.com:8089[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+19:18:17 DEBUG wire:73 -  >> "[\r][\n]"
+19:18:17 DEBUG headers:278 - >> GET / HTTP/1.1
+19:18:17 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+19:18:17 DEBUG headers:281 - >> Accept: */*
+19:18:17 DEBUG headers:281 - >> Content-Length: 0
+19:18:17 DEBUG headers:281 - >> Host: okmry52647dns.eastus.cloudapp.azure.com:8089
+19:18:17 DEBUG headers:281 - >> Connection: Keep-Alive
+19:18:17 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_211)
+19:18:17 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+19:18:17 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Expires: 0[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "X-Frame-Options: DENY[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Content-Length: 69[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "Date: Sun, 23 Feb 2020 19:18:17 GMT[\r][\n]"
+19:18:17 DEBUG wire:73 -  << "[\r][\n]"
+19:18:17 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+19:18:17 DEBUG headers:262 - << HTTP/1.1 200 
+19:18:17 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+19:18:17 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+19:18:17 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+19:18:17 DEBUG headers:265 - << Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
+19:18:17 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+19:18:17 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+19:18:17 DEBUG headers:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+19:18:17 DEBUG headers:265 - << Pragma: no-cache
+19:18:17 DEBUG headers:265 - << Expires: 0
+19:18:17 DEBUG headers:265 - << X-Frame-Options: DENY
+19:18:17 DEBUG headers:265 - << Content-Type: text/plain;charset=UTF-8
+19:18:17 DEBUG headers:265 - << Content-Length: 69
+19:18:17 DEBUG headers:265 - << Date: Sun, 23 Feb 2020 19:18:17 GMT
+19:18:17 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+19:18:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/plain;charset=UTF-8
+19:18:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+19:18:17 DEBUG wire:87 -  << "Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev"
+19:18:17 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1654a892
+19:18:17 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+19:18:17 INFO  Actions:58 - Clicked on [[ChromeDriver: chrome on WINDOWS (3b5fdf1da1c6a56553392e7d3f713c40)] -> xpath: //*[@id="navbarSupportedContent"]/form/button[4]]
+19:18:17 DEBUG HomePage:21 - Click SignIn Button Successful
+19:18:18 INFO  Test_1:41 - testCase1_Selection End's
+19:18:20 INFO  BrowserSelection:100 - Browser get Close
+19:18:21 INFO  BrowserSelection:107 - Browser get Quit
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+19:18:21 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+19:18:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+19:18:21 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/4.0.9/272a055be574edaa8e609476077f56d3aa65b58a/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

@@ -11,13 +11,13 @@ import com.furniture.utils.WebElementsCollector;
 public class HomePage {
 
 	public static final String file = "Properties/HomePage.properties";
-	
-	static Logger log =  Logger.getLogger(HomePage.class.getName());
-	
-	public static void tapOnSignIn(WebDriver driver) {		
-        WebElement signIn = WebElementsCollector.getWebElement(driver, file, "signInButton");
-        Actions.waitForElementToBeVisible(signIn);
-        Actions.clickOnElement(signIn);
+
+	static Logger log = Logger.getLogger(HomePage.class.getName());
+
+	public static void tapOnSignIn(WebDriver driver) {
+		WebElement signIn = WebElementsCollector.getWebElement(driver, file, "signInButton");
+		Actions.waitForElementToBeVisible(signIn);
+		Actions.clickOnElement(signIn);
 		log.debug("Click SignIn Button Successful");
 		Screenshot.getStepWiseScreenshot(driver);
 
@@ -30,7 +30,7 @@ public class HomePage {
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
 	}
-	
+
 	public static void tapOnChair(WebDriver driver) {
 		WebElement chair = WebElementsCollector.getWebElement(driver, file, "chairCircle");
 		Actions.waitForElementToBeVisible(chair);
@@ -38,7 +38,7 @@ public class HomePage {
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
 	}
-	
+
 	public static void tapOnSofa(WebDriver driver) {
 		WebElement sofa = WebElementsCollector.getWebElement(driver, file, "sofaCircle");
 		Actions.waitForElementToBeVisible(sofa);
@@ -46,7 +46,7 @@ public class HomePage {
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
 	}
-	
+
 	public static void tapOnTable(WebDriver driver) {
 		WebElement table = WebElementsCollector.getWebElement(driver, file, "tableCircle");
 		Actions.waitForElementToBeVisible(table);
@@ -54,7 +54,7 @@ public class HomePage {
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
 	}
-	
+
 	public static void tapOnBed(WebDriver driver) {
 		WebElement bed = WebElementsCollector.getWebElement(driver, file, "bedCircle");
 		Actions.waitForElementToBeVisible(bed);

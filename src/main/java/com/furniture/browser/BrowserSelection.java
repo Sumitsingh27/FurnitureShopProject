@@ -15,7 +15,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-
 public class BrowserSelection {
 
 	public static WebDriver driver;
@@ -23,25 +22,25 @@ public class BrowserSelection {
 	public FileInputStream fis;
 	public String url;
 	public static File file;
-	
-	//This is to generate current time of the system
-	
-static{
-        
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss");
-        System.setProperty("current.date.time", dateFormat.format(new Date()));
-    }
-	
-	//Creating Object for Logger
-	  static Logger log = Logger.getLogger(BrowserSelection.class.getName());
+
+	// This is to generate current time of the system
+
+	static {
+
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss");
+		System.setProperty("current.date.time", dateFormat.format(new Date()));
+	}
+
+	// Creating Object for Logger
+	static Logger log = Logger.getLogger(BrowserSelection.class.getName());
 
 	// Opening Selected browser
 	public WebDriver openBrowser() throws InterruptedException {
-		
-			try {
-				file = new File("Properties/Global.properties");
-				fis = new FileInputStream(file);
-			} catch (FileNotFoundException e) {
+
+		try {
+			file = new File("Properties/Global.properties");
+			fis = new FileInputStream(file);
+		} catch (FileNotFoundException e) {
 			log.error("Unable to find the file" + file);
 			e.printStackTrace();
 		}

@@ -8,7 +8,7 @@ public class SignUpPayLoad {
 	private String password;
 	private Role role;
 	private String userStatus;
-	
+
 	public String getEmailId() {
 		return emailId;
 	}
@@ -65,14 +65,9 @@ public class SignUpPayLoad {
 		this.userStatus = userStatus;
 	}
 
-
 //	public static String getPostData(String email, String mobileNo, String name, String passWord) {
 //		String payLoad = "{\r\n  \"emailId\": \""+email+"\",\r\n  \"\",\r\n  \"mobileNo\": \""+mobileNo+"\",\r\n  \"name\": \""+name+"\",\r\n  \"password\": \""+passWord+"\",\r\n  \"}";
 //		return payLoad;
 //	}
-
-
-
-
 
 }

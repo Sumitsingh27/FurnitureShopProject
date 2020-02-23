@@ -1,5 +1,5 @@
-Request method:	POST
-Request URI:	http://okmry52647dns.eastus.cloudapp.azure.com:8089/rest/api/signup/
+Request method:	GET
+Request URI:	http://okmry52647dns.eastus.cloudapp.azure.com:8089/
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -9,41 +9,20 @@ Multiparts:		<none>
 Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
-Body:
-{
-    "emailId": "test@abc123.com",
-    "gender": "MALE",
-    "mobileNo": "2341231231",
-    "name": "Newuser",
-    "password": "Test@1234",
-    "role": {
-        "description": "Registration of User",
-        "name": "NewUser",
-        "roleId": 2222
-    },
-    "userStatus": "ACTIVE"
-}
-HTTP/1.1 202 
+Body:			<none>
+HTTP/1.1 200 
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: x-requested-with, authorization, x-auth-token, origin, content-type, accept
-status: 202 ACCEPTED
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
-Date: Mon, 17 Feb 2020 15:45:59 GMT
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 69
+Date: Sun, 23 Feb 2020 19:18:17 GMT
 
-{
-    "message": " Successfully added profile - Newuser",
-    "httpStatus": "201 CREATED",
-    "httpStatusCode": 200,
-    "body": " Successfully added profile - Newuser",
-    "success": true,
-    "error": false
-}
+Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev

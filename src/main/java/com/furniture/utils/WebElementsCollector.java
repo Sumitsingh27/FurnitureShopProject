@@ -26,9 +26,9 @@ public class WebElementsCollector {
 
 	// String to hold the property value retrieved from the property file
 	public static String propertyValue;
-	
-	///Creating Object for Logger
-	 static Logger log = Logger.getLogger(WebElementsCollector.class.getName());
+
+	/// Creating Object for Logger
+	static Logger log = Logger.getLogger(WebElementsCollector.class.getName());
 
 	// page object pattern implementation with Reflection
 	public static WebElement getWebElement(WebDriver driver, String fileName, String elementName) {
@@ -42,7 +42,7 @@ public class WebElementsCollector {
 
 			propertyValue = prop.getProperty(elementName);
 			arr = propertyValue.split("\\$");
-			
+
 //			if (!varPath.equalsIgnoreCase("")) {
 //				locatorpath = arr[1] + varPath + arr[2];
 //				System.out.println(locatorpath);
@@ -51,8 +51,8 @@ public class WebElementsCollector {
 //				locatorpath = arr[1];
 //			}
 
-				locatorpath = arr[1];
-				
+			locatorpath = arr[1];
+
 			// getting an instance for the method of By class that will be
 			// stored in the
 			// externalLinkMethod variable
