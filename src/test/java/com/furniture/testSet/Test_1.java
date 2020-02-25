@@ -36,6 +36,7 @@ public class Test_1 extends BaseTestClass {
 //Using the register User Logging in
 		HomePage.tapOnSignIn(driver);
 		SignInPage.enterEmail(driver, "test@why321.com");
+
 		SignInPage.enterPassword(driver, "Test@1234");
 		SignInPage.clickOnSignInTab(driver);
 		
