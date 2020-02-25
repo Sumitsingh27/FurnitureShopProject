@@ -7,7 +7,6 @@ Form params:	<none>
 Path params:	<none>
 Multiparts:		<none>
 Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Body:			<none>
 HTTP/1.1 200 
@@ -23,6 +22,6 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: text/plain;charset=UTF-8
 Content-Length: 69
-Date: Sun, 23 Feb 2020 20:09:31 GMT
+Date: Tue, 25 Feb 2020 09:53:11 GMT
 
 Welcome to Book My Furniture APIs|| Version - 2.3|| environment - Dev

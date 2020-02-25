@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 import com.furniture.pages.HomePage;
 import com.furniture.pages.RestAssuredPages;
+import com.furniture.pages.SignInPage;
+import com.furniture.resourses.dataBaseValidations;
 import com.furniture.utils.BaseTestClass;
 
 
@@ -28,14 +30,14 @@ public class Test_1 extends BaseTestClass {
 		
 		
 // Register the User
-		//RestAssuredPages.registerUser("test@why123.com", "4352678923", "Newuser", "Test@1234");
+		RestAssuredPages.registerUser("test@why321.com", "4352687623", "Newuser", "Test@1234");
 		RestAssuredPages.home();
-		//dataBaseValidations.validateEmailFromDatabaseViaMobileNumber("4352678923", "test@why123.com");
+		dataBaseValidations.validateEmailFromDatabaseViaMobileNumber("4352687623", "test@why321.com");
 //Using the register User Logging in
 		HomePage.tapOnSignIn(driver);
-//		SignInPage.enterEmail(driver, "test@test221.com");
-//		SignInPage.enterPassword(driver, "Test@1234");
-//		SignInPage.clickOnSignInTab(driver);
+		SignInPage.enterEmail(driver, "test@why321.com");
+		SignInPage.enterPassword(driver, "Test@1234");
+		SignInPage.clickOnSignInTab(driver);
 		
 		
 		log.info("testCase1_Selection End's");

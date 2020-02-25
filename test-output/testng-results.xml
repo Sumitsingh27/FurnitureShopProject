@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14710" started-at="2020-02-23T19:18:06Z" finished-at="2020-02-23T19:18:21Z">
+  <suite name="Default suite" duration-ms="14041" started-at="2020-02-25T10:00:30Z" finished-at="2020-02-25T10:00:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14710" started-at="2020-02-23T19:18:06Z" finished-at="2020-02-23T19:18:21Z">
-      <class name="com.furniture.testSet.Test_1">
-        <test-method status="PASS" signature="testStartUp()[pri:0, instance:com.furniture.testSet.Test_1@61f8bee4]" name="testStartUp" is-config="true" duration-ms="9897" started-at="2020-02-23T19:18:06Z" finished-at="2020-02-23T19:18:16Z">
+    <test name="Default test" duration-ms="14041" started-at="2020-02-25T10:00:30Z" finished-at="2020-02-25T10:00:44Z">
+      <class name="com.furniture.testSet.Test_2">
+        <test-method status="PASS" signature="testStartUp()[pri:0, instance:com.furniture.testSet.Test_2@61f8bee4]" name="testStartUp" is-config="true" duration-ms="9886" started-at="2020-02-25T10:00:30Z" finished-at="2020-02-25T10:00:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartUp -->
-        <test-method status="PASS" signature="testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_1@61f8bee4]" name="testCase1_Selection" duration-ms="1679" started-at="2020-02-23T19:18:16Z" finished-at="2020-02-23T19:18:18Z">
+        <test-method status="PASS" signature="testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_2@61f8bee4]" name="testCase1_Selection" duration-ms="1120" started-at="2020-02-25T10:00:40Z" finished-at="2020-02-25T10:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1_Selection -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.furniture.testSet.Test_1@61f8bee4]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-02-23T19:18:18Z" finished-at="2020-02-23T19:18:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.furniture.testSet.Test_2@61f8bee4]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-02-25T10:00:41Z" finished-at="2020-02-25T10:00:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCase1_Selection status=SUCCESS method=Test_1.testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_1@61f8bee4] output={null}]]]>
+                <![CDATA[[TestResult name=testCase1_Selection status=SUCCESS method=Test_2.testCase1_Selection()[pri:0, instance:com.furniture.testSet.Test_2@61f8bee4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.furniture.testSet.Test_1@61f8bee4]" name="testCleanUp" is-config="true" duration-ms="3110" started-at="2020-02-23T19:18:18Z" finished-at="2020-02-23T19:18:21Z">
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.furniture.testSet.Test_2@61f8bee4]" name="testCleanUp" is-config="true" duration-ms="3014" started-at="2020-02-25T10:00:41Z" finished-at="2020-02-25T10:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-      </class> <!-- com.furniture.testSet.Test_1 -->
+      </class> <!-- com.furniture.testSet.Test_2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

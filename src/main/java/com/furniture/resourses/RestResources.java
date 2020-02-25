@@ -34,7 +34,6 @@ public class RestResources {
 		request = new RequestSpecBuilder().setBaseUri(getGlobalValue("restBaseURI"))
 				.addFilter(RequestLoggingFilter.logRequestTo(log))
 				.addFilter(ResponseLoggingFilter.logResponseTo(log))
-				.setContentType("application/json")
 				.build();
 		return request;
 	}
