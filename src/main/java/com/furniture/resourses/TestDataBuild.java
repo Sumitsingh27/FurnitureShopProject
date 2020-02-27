@@ -1,7 +1,11 @@
 package com.furniture.resourses;
 
+import java.sql.SQLException;
+
+import com.furniture.pojo.FeedBackPayLoad;
 import com.furniture.pojo.Role;
 import com.furniture.pojo.SignUpPayLoad;
+import com.furniture.utils.JdbcConnecction;
 
 public class TestDataBuild {
 
@@ -22,9 +26,16 @@ public class TestDataBuild {
 
 	}
 
-	public static String payLoadCheck() {
-		String body = "{\r\n  \"emailId\": \"adcd@123.com\",\r\n  \"gender\": \"MALE\",\r\n  \"mobileNo\": \"7658904321\",\r\n  \"name\": \"Soumya\",\r\n  \"password\": \"Test@1234\",\r\n  \"role\": {\r\n    \"description\": \"string\",\r\n    \"name\": \"Admin, user, etc..\",\r\n    \"roleId\": 1234\r\n  },\r\n  \"userStatus\": \"ACTIVE\"\r\n}";
-		
-		return body;
+	public FeedBackPayLoad feedBackToReply(String comments, String reply) throws SQLException {
+		FeedBackPayLoad feedBackRply = new FeedBackPayLoad();
+		feedBackRply.setComments(comments);
+		feedBackRply.setFeedBackDate("2020-02-25");
+		feedBackRply.setId(JdbcConnecction.getFeedbackIdFromDatabase(comments));
+		feedBackRply.setReply(reply);
+		feedBackRply.setUserId(JdbcConnecction.getFeedbackUserIdFromDatabase(comments));
+
+		return feedBackRply;
+
+
 	}
 }

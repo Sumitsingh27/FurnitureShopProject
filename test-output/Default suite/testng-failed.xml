@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.furniture.testSet.Test_1">
+      <class name="com.furniture.testSet.Test_2">
         <methods>
           <include name="testStartUp"/>
           <include name="tearDown"/>
-          <include name="testCleanUp"/>
           <include name="testCase1_Selection"/>
+          <include name="testCleanUp"/>
         </methods>
-      </class> <!-- com.furniture.testSet.Test_1 -->
+      </class> <!-- com.furniture.testSet.Test_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

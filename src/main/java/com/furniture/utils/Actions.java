@@ -61,6 +61,18 @@ public class Actions extends BrowserSelection {
 			Assert.fail(element + " ELEMENT_NOT_FOUND");
 		}
 	}
+	
+	// This method is used to click on elements
+		public static void clickOnElemenWithSpecificTimet(WebElement element) {
+			if (element != null) {
+				waitForElementToBeClickable(element);
+				element.click();
+				log.info("Clicked on " + element);
+			} else {
+				log.error("Unable to find the Element: " + element);
+				Assert.fail(element + " ELEMENT_NOT_FOUND");
+			}
+		}
 
 	// This method is used to get the text from the element provided
 	public static String getElementText(WebElement element) {
@@ -72,6 +84,12 @@ public class Actions extends BrowserSelection {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
+	
+	// This method is used to wit till the element is visible
+		public static void waitForElementToBeVisible(WebElement element, long timeout) {
+			WebDriverWait wait = new WebDriverWait(driver, timeout);
+			wait.until(ExpectedConditions.visibilityOf(element));
+		}
 
 	// This method is used to check the element is displayed or not
 	public static boolean isElementDisplayed(WebElement element) {

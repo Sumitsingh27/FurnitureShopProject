@@ -30,12 +30,12 @@ public class Test_1 extends BaseTestClass {
 		
 		
 // Register the User
-		RestAssuredPages.registerUser("test@why321.com", "4352687623", "Newuser", "Test@1234");
+		RestAssuredPages.registerUser("test@why887.com", "1344687623", "Newuser", "Test@1234");
 		RestAssuredPages.home();
-		dataBaseValidations.validateEmailFromDatabaseViaMobileNumber("4352687623", "test@why321.com");
+		dataBaseValidations.validateEmailFromDatabaseViaMobileNumber("1344687623", "test@why887.com");
 //Using the register User Logging in
 		HomePage.tapOnSignIn(driver);
-		SignInPage.enterEmail(driver, "test@why321.com");
+		SignInPage.enterEmail(driver, "test@why887.com");
 
 		SignInPage.enterPassword(driver, "Test@1234");
 		SignInPage.clickOnSignInTab(driver);

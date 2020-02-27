@@ -37,4 +37,49 @@ public class JdbcConnecction {
 						}
 		return results;
 	}
+	
+	public static int getUserIdFromDatbase(String email) throws SQLException {
+		String results = null;
+		ResultSet rs = jdbcConnection().executeQuery("Select * from profile where email_id = '"+email+"'");
+		while (rs.next())		
+						{
+							 results = rs.getString("user_id");
+							System.out.println(rs.getString("email_id"));
+			
+						}
+		return Integer.parseInt(results);
+	}
+	
+	public static int getFeedbackUserIdFromDatabase(String comments) throws SQLException {
+		String results = null;
+		ResultSet rs = jdbcConnection().executeQuery("Select * from feedback where comments = '"+comments+"'");
+		while (rs.next())		
+						{
+							 results = rs.getString("user_id_user_id");
+							System.out.println(rs.getString("user_id_user_id"));
+						}
+		return Integer.parseInt(results);
+	}
+	
+	public static int getFeedbackIdFromDatabase(String comments) throws SQLException {
+		String results = null;
+		ResultSet rs = jdbcConnection().executeQuery("Select * from feedback where comments = '"+comments+"'");
+		while (rs.next())		
+						{
+							 results = rs.getString("id");
+							System.out.println(rs.getString("id"));
+						}
+		return Integer.parseInt(results);
+	}
+	
+	public static int getCartIdFromDataBase(int userId, int productId) throws SQLException {
+		String results = null;
+		ResultSet rs = jdbcConnection().executeQuery("Select * from cart where profile_user_id = '"+userId+"'" + "and product_id = '"+productId+"'");
+		while (rs.next())		
+						{
+							 results = rs.getString("cart_id");
+							System.out.println(rs.getString("cart_id"));
+						}
+		return Integer.parseInt(results);
+	}
 }

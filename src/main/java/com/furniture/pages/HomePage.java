@@ -25,7 +25,7 @@ public class HomePage {
 
 	public static void tapOnCart(WebDriver driver) {
 		WebElement cart = WebElementsCollector.getWebElement(driver, file, "cartButton");
-		Actions.waitForElementToBeVisible(cart);
+		Actions.waitForElementToBeVisible(cart, 60);
 		Actions.clickOnElement(cart);
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
@@ -61,5 +61,23 @@ public class HomePage {
 		Actions.clickOnElement(bed);
 		log.debug("Click on Cart Successful");
 		Screenshot.getStepWiseScreenshot(driver);
+	}
+	
+	public static void returnToHomePage(WebDriver driver) {
+		WebElement returnhomePage = WebElementsCollector.getWebElement(driver, file, "returnToHomePage");
+		Actions.waitForElementToBeVisible(returnhomePage);
+		Actions.clickOnElement(returnhomePage);
+		log.debug("Click Home Page Button Successful");
+		Screenshot.getStepWiseScreenshot(driver);
+
+	}
+	
+	public static void tapOnUserDetails(WebDriver driver) {
+		WebElement userDetails = WebElementsCollector.getWebElement(driver, file, "userDetails");
+		Actions.waitForElementToBeVisible(userDetails);
+		Actions.clickOnElement(userDetails);
+		log.debug("Click on Userdetails Successful");
+		Screenshot.getStepWiseScreenshot(driver);
+
 	}
 }
